@@ -1,0 +1,127 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background */
+    color: #333; /* Red text color */
+}
+
+/* Style the header */
+header {
+    background-color: #dd2233; /* Red header background */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px; /* Increase font size for a cool effect */
+    font-family: 'Oswald', sans-serif; /* Use the "Oswald" font for the header */
+}
+
+/* Rest of your CSS remains the same */
+
+/* Style the navigation menu */
+nav ul {
+    background-color: #dd2233; /* Red background for the navigation menu */
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the main content area */
+main {
+    max-width: 100%; /* Ensure the content is full-width on smartphones */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the ad container */
+.ad-container {
+    border: 1px solid #dd2233; /* Red border for the ad container */
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+    background-color: #dd2233; /* Red footer background */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media query for smartphone layout */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        padding: 5px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}
+
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.article-box {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article-box h2 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.article-box p {
+    font-size: 1rem;
+}
+
+.article-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
